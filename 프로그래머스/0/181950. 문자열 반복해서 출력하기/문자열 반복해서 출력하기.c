@@ -9,6 +9,5 @@ int main(void) {
     for (int i = 0; i < a; i++) {
         printf("%s", s1);
     }
-    
     return 0;
 }
