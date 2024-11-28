@@ -26,6 +26,4 @@ for alphabet in word:
     elif ord(alphabet) <= 90:
         time += 10
 
-    else:
-        time += 1
 print(time)
