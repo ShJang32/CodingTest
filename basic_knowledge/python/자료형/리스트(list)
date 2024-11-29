@@ -1,1 +1,12 @@
+# 리스트 생성 방법
+a_list = list() # 빈 리스트
+a_list = [] # 빈 리스트
 
+# 공백으로 구분되는 여러개의 값을 입력 받아 리스트에 저장하기
+lists = list(input().split()) # a b c d => ['a', 'b', 'c', 'd']
+
+# 숫자 버전
+lists = list(map(int, input().split())) # 1 2 3 4 => [1, 2, 3, 4]
+
+# 리스트 출력할 때 값만 출력하는 방법
+print(*lists) # a b c d
